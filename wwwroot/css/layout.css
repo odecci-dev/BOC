@@ -1,0 +1,171 @@
+body {
+    background-color: var(--primary-color) !important; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-container {
+    display: flex;
+    margin: 25px 5px;
+    height: 90vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 25px 25px 25px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+    width: 100%;
+}
+
+.content-title {
+    background-color: var(--title-bg);
+    border: 2px solid var(--title-bg);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+    .content-title span {
+        color: var(--title-font-color);
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+.main-content {
+    display: flex;
+    gap: 25px;
+    height: 100vh;
+}
+
+.content-left, .content-right {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+/* Set width for larger screens */
+.content-left {
+    width: 30vw;
+}
+
+.content-right {
+    width: 70vw;
+}
+
+.sub-content-left {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+    .sub-content-left span {
+        color: var(--title-font-color);
+        font-weight: bolder;
+        font-size: 20px;
+    }
+/* Responsive layout for smaller screens */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .content-left, .content-right {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contents {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.left {
+    text-align: left;
+}
+
+.bg-none {
+    background-color: transparent !important;
+    border: none;
+}
+
+.mb-0 {
+    margin-bottom: 0px !important;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-unset {
+    height: unset;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-10 {
+    margin: 10px;
+}
+
+.d-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.label-title {
+    color: var(--lbl-title);
+}
+
+.color-title {
+    font-weight: bolder;
+    color: var(--title);
+}
+
+.scrollable {
+    overflow: scroll;
+}

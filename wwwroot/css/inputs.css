@@ -1,0 +1,21 @@
+.search-container  textarea {
+  
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color:#696969;
+    font-size: 25px;
+}
+
+.search-container 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap:20px;
+}
